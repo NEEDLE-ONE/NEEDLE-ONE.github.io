@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3978427",
+      "name": "探针管理",
+      "font_class": "tanzhenguanli",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    }
+  ]
+}

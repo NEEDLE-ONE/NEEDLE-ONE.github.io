@@ -1,0 +1,94 @@
+.other h1 {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 22px;
+  color: #000000;
+}
+
+.other h2 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-left: 0.4em;
+  font-size: 20px;
+  border-left: 0.4em solid #4cb1ca;
+  border-bottom: 1px solid #4cb1ca;
+}
+
+.txt {
+  text-indent: 2em;
+  line-height: 2em;
+  font-size: 18px;
+}
+
+strong {
+  padding: 0 2px;
+  font-weight: bold;
+  color: #e84393;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.other a:hover {
+  background-color: #00cec9;
+}
+
+/* 表格 */
+
+/* .table {
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 100%;
+  overflow: auto;
+  break-inside: auto;
+  text-align: left;
+  border: 5px;
+  font-size: 18px;
+  text-indent: 0;
+}
+
+td {
+  height: 50px;
+  text-align: left;
+} */
+
+#scontext {
+  height: 502px;
+}
+
+.method {
+  text-indent: 0;
+  padding-left: 2em;
+}
+.method ul {
+  list-style-type: initial;
+  padding-left: 2em;
+}
+
+h3 {
+  text-indent: 0;
+  font-size: 18px;
+}
+
+/* 转载声明 */
+.transshipment {
+  border: silver 1px dashed;
+  background-color: rgba(0, 0, 0, 0);
+  width: 80%;
+  padding: 12px;
+  text-indent: 4em;
+  line-height: 2em;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}

@@ -1,0 +1,250 @@
+/* ================================界面基本设置================================ */
+/* 界面初始化 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Microsoft YaHei";
+}
+
+/* body设置 */
+body {
+  background-color: #ffffff;
+}
+
+/* 页面大小设置 */
+.wrapper {
+  margin: auto;
+  /* margin-top: 2%; */
+  width: 80%;
+  height: auto;
+  /* background: #ff0000; */
+}
+
+h4 {
+  display: block;
+  margin-bottom: 5%;
+}
+
+a {
+  color: #4346e8;
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ================================头部样式================================ */
+.header {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background-color: #4cb1ca;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#top {
+  height: 40px;
+}
+
+.logoicon {
+  color: #000000;
+  float: left;
+}
+
+#logotitle {
+  float: left;
+  font-family: Cookie, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 215%;
+  text-shadow: 0 1px 1px #fff;
+}
+
+/* ----------------------导航栏---------------------- */
+nav {
+  float: right;
+  width: 300px;
+  display: block;
+  height: 40px;
+}
+
+nav ul li {
+  display: block;
+  width: 25%;
+  float: left;
+  font-size: large;
+  text-align: center;
+}
+
+nav ul li a {
+  width: 90%;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: large;
+  line-height: 250%;
+  display: block;
+  color: #2d2d2d;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #00cec9;
+  font-weight: bolder;
+}
+
+nav ul li p {
+  width: 90%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 250%;
+  display: block;
+  color: #4cb1ca;
+}
+
+/* ================================分割线样式================================ */
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #2d2d2d;
+  margin: 2% 0;
+}
+/* ================================迎词样式================================ */
+.clock {
+  width: 100%;
+  margin: 3% 0 3% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clock h2 {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.futureclock,
+.nowclock {
+  text-align: center;
+}
+
+#nclock,
+#fclock {
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  color: black;
+}
+
+/* ================================内容模块样式================================ */
+
+.context {
+  margin-top: 3%;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  /* display: flex; */
+}
+
+/* --------------------------------RQ、EA样式-------------------------------- */
+.RQ {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.RQ .RQ1 h4 {
+  display: block;
+  margin: 20px;
+}
+
+.RQ1 {
+  width: 40%;
+  height: auto;
+  border: 2px solid rgb(151, 151, 151);
+  /* background-color: #00ff11; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.RQ1:hover {
+  box-shadow: 0 0 5px #696969;
+}
+
+.RQ ul {
+  margin: 10px;
+  padding: 2px 30px 2px 30px;
+  box-shadow: 0 0 5px #cdcdcd;
+  color: #696969;
+  border-radius: 10px;
+}
+
+.RQ ul:hover {
+  background-color: #4cb1ca;
+  color: #ffffff;
+  box-shadow: 0 0 5px #f67ea3;
+}
+
+h4 {
+  text-align: center;
+}
+
+.RQ ul li {
+  line-height: 30px;
+  display: block;
+  text-decoration: none;
+}
+
+.RQ ul li a {
+  padding: 0;
+  display: block;
+  text-decoration: none;
+  color: #523eff;
+}
+
+.RQ ul li a:hover {
+  color: #00ff11;
+}
+
+.bakctop {
+  margin-top: 20px;
+  text-align: center;
+}
+.bakctop a:hover {
+  background-color: #00cec9;
+}
+/* ================================尾部样式================================ */
+.footer {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 30px;
+  background-color: #0b4b5a;
+  color: #87d8eb;
+  text-align: center;
+}
+
+/* ================================媒体查询================================
+/* 超小屏幕（手机）  <768px */
+@media screen and (max-width: 768px) {
+}
+
+/* 小屏幕（平板）  768px-992px */
+@media screen and (min-width: 768px) {
+}
+
+/* 中等屏幕（小电脑） 992px - 1200px   */
+@media screen and (min-width: 992px) {
+}
+
+/* 大屏幕（大电脑）  大于1200px */
+@media screen and (min-width: 1200px) {
+}
